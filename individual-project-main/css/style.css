@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica';
+    text-align: center;
+    background-color:rgb(252, 213, 254);
+}
+
+header {
+    background-color: #edcfcf;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    font-size : x-large 
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: auto;
+}
+
+.footer-text {
+    text-decoration: overline;
+  }
+  
+/* PAGE 1 - HOME PAGE */
+
+.banner {
+    margin-top: 0px;
+    display:block;
+    justify-content:auto;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 0px;
+    width: auto;
+}
+
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-about {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2ecec;
+    box-shadow: 0 0 10px rgba(160, 160, 160, 0.1);
+    border-radius: 5px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.connect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9c43cf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.border-style { 
+    border: 2px solid rgb(75, 32, 82);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* PAGE 2 - ABOUT ME */
+
+.about-me-container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: justify;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.about-me-container h1 {
+    text-align: center; /* Center-align the <h1> element */
+}
+
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#image-upload {
+    display: none;
+}
+
+#preview-image {
+            width: 300px; /* Set the desired width */
+            margin: 20px auto; /* Center the container horizontally */
+            text-align: center; /* Center the image within the container */
+}
+
+#preview-image img {
+            max-width: 100%; /* Ensure the image doesn't exceed the container width */
+            height: auto; /* Maintain the aspect ratio */
+            display: inline-block; /* Prevent extra spacing below the image */
+}
+
+/* PAGE 3 - ACADEMIC */
+
+.image-uitm {
+    max-width: 230px; /* Adjust the maximum width as needed */
+    height: auto;
+    padding: 10px; /* Add some padding for better visual */
+    margin: 0 auto; /* Center the image */
+}
+
+.image-polisas {
+    max-width: 250px; /* Adjust the maximum width as needed */
+    height: auto;
+    padding: 10px; /* Add some padding for better visual */
+    margin: 0 auto; /* Center the image */
+}
+
+.image-semai {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    height: auto;
+    padding: 10px; /* Add some padding for better visual */
+    margin: 0 auto; /* Center the image */
+}
+
+.image-skpl {
+    max-width: 170px; /* Adjust the maximum width as needed */
+    height: auto;
+    padding: 10px; /* Add some padding for better visual */
+    margin: 0 auto; /* Center the image */
+}
+
+.image-taska {
+    max-width: 180px; /* Adjust the maximum width as needed */
+    height: auto;
+    padding: 10px; /* Add some padding for better visual */
+    margin: 0 auto; /* Center the image */
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid #070707;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Set width for table columns */
+.column1 { width: 20%; }
+.column2 { width: 50%; }
+.column3 { width: 30%; }
+
+/* PAGE 4 - EXPERIENCE */
+
+.image-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.image-text-container > div {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.image-text-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgb(252, 213, 254);
+    padding: 10px;
+}
+
+.image-common {
+    height: auto;
+    padding: 10px; /* Add some padding for better visual */
+    margin: 0 auto; /* Center the image */
+}
+
+.image-ade {
+    max-width: 100px; /* Adjust the maximum width as needed */
+}
+
+.image-farmasi {
+    max-width: 90px; /* Adjust the maximum width as needed */
+}
+
+.image-peladangs {
+    max-width: 200px; /* Adjust the maximum width as needed */
+}
+
+.image-tealives {
+    max-width: 120px; /* Adjust the maximum width as needed */
+}
+
+/* PAGE 5 - GALLERY */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    width: 450px;
+    margin: 10px;
+    overflow: hidden;
+    border: 0px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #d8cece;
+}
+
+.gallery-caption {
+    padding: 10px;
+    text-align: center;
+}
+
+/* PAGE 6 - CONTACT */
+
+.map-container {
+    grid-column: 1;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #ccc;
+    padding: 10px;
+    align-items: center;
+}
+
+.button-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9c43cf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* LOGIN AND LOGOUT ICON */
+
+.login-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.logout-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* COVER PAGE */
+
+.header-cp {
+    background-color: #413e3e;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    font-size : x-large 
+
+}
+
+
+
